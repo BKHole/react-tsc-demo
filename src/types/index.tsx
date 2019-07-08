@@ -1,1 +1,4 @@
-export type StoreState = number;
+export interface StoreState {
+    enthusiasmLevel: number,
+    languageName: string
+}
