@@ -4,15 +4,11 @@ import './index.css';
 import StateHello from './components/StatefulHello';
 import * as serviceWorker from './serviceWorker';
 import {createStore} from 'redux';
-import {enthusiasm} from './reducers/index';
-import {StoreState} from './types/index';
+import {enthusiasm} from './reducers';
 import {Provider} from 'react-redux';
 import Hello from './containers/Hello';
 
-const store = createStore<StoreState>(enthusiasm, {
-    enthusiasmLevel: 1,
-    languageName: 'TypeScript',
-});
+const store = createStore(enthusiasm);
 
 ReactDOM.render(<Provider store={store}>
     <Hello/>
