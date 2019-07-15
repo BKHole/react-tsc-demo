@@ -56,7 +56,7 @@
   dependencies:
     "@babel/types" "^7.5.0"
     jsesc "^2.5.1"
-    lodash "^4.17.11"
+    lodash "^4.17.13"
     source-map "^0.5.0"
     trim-right "^1.0.1"
 
@@ -3722,7 +3722,7 @@ eslint-plugin-flowtype@2.50.1:
   resolved "https://registry.npm.taobao.org/eslint-plugin-flowtype/download/eslint-plugin-flowtype-2.50.1.tgz#36d4c961ac8b9e9e1dc091d3fba0537dad34ae8a"
   integrity sha1-NtTJYayLnp4dwJHT+6BTfa00roo=
   dependencies:
-    lodash "^4.17.10"
+    lodash "^4.17.13"
 
 eslint-plugin-import@2.16.0:
   version "2.16.0"
@@ -3735,7 +3735,7 @@ eslint-plugin-import@2.16.0:
     eslint-import-resolver-node "^0.3.2"
     eslint-module-utils "^2.3.0"
     has "^1.0.3"
-    lodash "^4.17.11"
+    lodash "^4.17.13"
     minimatch "^3.0.4"
     read-pkg-up "^2.0.0"
     resolve "^1.9.0"
@@ -3826,7 +3826,7 @@ eslint@^5.16.0:
     js-yaml "^3.13.0"
     json-stable-stringify-without-jsonify "^1.0.1"
     levn "^0.3.0"
-    lodash "^4.17.11"
+    lodash "^4.17.13"
     minimatch "^3.0.4"
     mkdirp "^0.5.1"
     natural-compare "^1.4.0"
@@ -4738,7 +4738,7 @@ html-webpack-plugin@4.0.0-beta.5:
   dependencies:
     html-minifier "^3.5.20"
     loader-utils "^1.1.0"
-    lodash "^4.17.11"
+    lodash "^4.17.13"
     pretty-error "^2.1.1"
     tapable "^1.1.0"
     util.promisify "1.0.0"
@@ -4804,7 +4804,7 @@ http-proxy-middleware@^0.19.1:
   dependencies:
     http-proxy "^1.17.0"
     is-glob "^4.0.0"
-    lodash "^4.17.11"
+    lodash "^4.17.13"
     micromatch "^3.1.10"
 
 http-proxy@^1.17.0:
@@ -4975,7 +4975,7 @@ inquirer@6.2.2:
     cli-width "^2.0.0"
     external-editor "^3.0.3"
     figures "^2.0.0"
-    lodash "^4.17.11"
+    lodash "^4.17.13"
     mute-stream "0.0.7"
     run-async "^2.2.0"
     rxjs "^6.4.0"
@@ -4994,7 +4994,7 @@ inquirer@^6.2.2:
     cli-width "^2.0.0"
     external-editor "^3.0.3"
     figures "^2.0.0"
-    lodash "^4.17.11"
+    lodash "^4.17.13"
     mute-stream "0.0.7"
     run-async "^2.2.0"
     rxjs "^6.4.0"
