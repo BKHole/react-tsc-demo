@@ -13,4 +13,4 @@ script:
   - yarn run build
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
   - docker build -t lbt1332051236/tsc:latest .
-  - docker push lbt1332051236:latest
+  - docker push lbt1332051236/tsc:latest
